@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TuW-Xh-KVo">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Load Vc-->
+        <scene sceneID="yWP-Ti-oeL">
+            <objects>
+                <viewController id="TuW-Xh-KVo" customClass="LoadVc" customModule="Carrifree" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3lg-Ig-L1O">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-menu-logo" translatesAutoresizingMaskIntoConstraints="NO" id="LXI-y2-7mU">
+                                <rect key="frame" x="87" y="345" width="240" height="107.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="2Hk-W6-TRG"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wSe-ai-Oft" customClass="LoadingBar" customModule="Carrifree" customModuleProvider="target">
+                                <rect key="frame" x="125" y="466.5" width="164" height="7"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="164" id="X51-yH-A0T"/>
+                                    <constraint firstAttribute="height" constant="7" id="fF7-WF-dL4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NU8-XS-OuG"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wSe-ai-Oft" firstAttribute="centerX" secondItem="3lg-Ig-L1O" secondAttribute="centerX" id="4lf-Ba-T19"/>
+                            <constraint firstItem="LXI-y2-7mU" firstAttribute="centerX" secondItem="3lg-Ig-L1O" secondAttribute="centerX" id="GBx-Wo-XB6"/>
+                            <constraint firstItem="wSe-ai-Oft" firstAttribute="top" secondItem="LXI-y2-7mU" secondAttribute="bottom" constant="14" id="LPc-Qi-8pe"/>
+                            <constraint firstItem="LXI-y2-7mU" firstAttribute="centerY" secondItem="3lg-Ig-L1O" secondAttribute="centerY" multiplier="0.89" id="WHZ-Y1-ER8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loadingBar" destination="wSe-ai-Oft" id="7bI-xO-9Vh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1K8-Pk-kQB" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6571" y="-858"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img-menu-logo" width="162.5" height="107.5"/>
+    </resources>
+</document>

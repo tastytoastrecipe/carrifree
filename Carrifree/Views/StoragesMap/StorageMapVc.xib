@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StorageMapVc" customModule="Carrifree" customModuleProvider="target">
+            <connections>
+                <outlet property="lookupView" destination="ZWb-4m-1l2" id="xNj-r5-Q55"/>
+                <outlet property="map" destination="oOw-BR-Ae1" id="8Ub-Rx-oIm"/>
+                <outlet property="storage" destination="mqh-83-4bB" id="Zr3-AV-0vN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="oOw-BR-Ae1">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </mapView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZWb-4m-1l2" userLabel="LookupView" customClass="LookupView" customModule="Carrifree" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mqh-83-4bB" customClass="StorageMapItem" customModule="Carrifree" customModuleProvider="target">
+                    <rect key="frame" x="8" y="776" width="398" height="110"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="110" id="DJX-ha-JOb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="mqh-83-4bB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="5Bf-Q0-PGl"/>
+                <constraint firstAttribute="bottom" secondItem="ZWb-4m-1l2" secondAttribute="bottom" id="8Tv-62-aHy"/>
+                <constraint firstAttribute="bottom" secondItem="oOw-BR-Ae1" secondAttribute="bottom" id="9la-Qx-NJa"/>
+                <constraint firstItem="ZWb-4m-1l2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="FJW-cC-YRQ"/>
+                <constraint firstItem="oOw-BR-Ae1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Lq8-XQ-J11"/>
+                <constraint firstItem="ZWb-4m-1l2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Qdm-s6-E3A"/>
+                <constraint firstAttribute="trailing" secondItem="ZWb-4m-1l2" secondAttribute="trailing" id="TOS-2d-Mwr"/>
+                <constraint firstItem="oOw-BR-Ae1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="TkI-M9-nV0"/>
+                <constraint firstAttribute="trailing" secondItem="oOw-BR-Ae1" secondAttribute="trailing" id="f5C-fs-K1k"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mqh-83-4bB" secondAttribute="trailing" constant="8" id="sNe-PL-GJf"/>
+                <constraint firstAttribute="bottom" secondItem="mqh-83-4bB" secondAttribute="bottom" constant="10" id="z5F-O4-Puc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="131.8840579710145" y="130.58035714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

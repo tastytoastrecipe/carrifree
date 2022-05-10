@@ -1,0 +1,6 @@
+framework module SwiftyIamport {
+  umbrella header "SwiftyIamport-umbrella.h"
+
+  export *
+  module * { export * }
+}

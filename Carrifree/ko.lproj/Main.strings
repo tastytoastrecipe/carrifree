@@ -1,0 +1,156 @@
+
+/* Class = "UILabel"; text = "권회정 님"; ObjectID = "2KC-Zw-QcX"; */
+"2KC-Zw-QcX.text" = "권회정 님";
+
+/* Class = "UILabel"; text = "차량"; ObjectID = "3L9-yO-CMq"; */
+"3L9-yO-CMq.text" = "차량";
+
+/* Class = "UILabel"; text = "21시 15분"; ObjectID = "6CY-2C-62P"; */
+"6CY-2C-62P.text" = "21시 15분";
+
+/* Class = "UILabel"; text = "짐 분류 체계"; ObjectID = "7g0-xV-km1"; */
+"7g0-xV-km1.text" = "짐 분류 체계";
+
+/* Class = "UILabel"; text = "캐리어 보관 사업자"; ObjectID = "99R-xL-HhJ"; */
+"99R-xL-HhJ.text" = "캐리어 보관 사업자";
+
+/* Class = "UILabel"; text = "비밀 번호"; ObjectID = "9B4-Yu-A7Y"; */
+"9B4-Yu-A7Y.text" = "비밀 번호";
+
+/* Class = "UILabel"; text = "정보"; ObjectID = "9fe-Im-TLv"; */
+"9fe-Im-TLv.text" = "정보";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "AOH-ND-uwi"; */
+"AOH-ND-uwi.text" = "Title";
+
+/* Class = "UILabel"; text = "큰짐"; ObjectID = "AQW-T7-oo5"; */
+"AQW-T7-oo5.text" = "큰짐";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "AVH-Fa-f3x"; */
+"AVH-Fa-f3x.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "AZL-bJ-Xa5"; */
+"AZL-bJ-Xa5.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "..."; ObjectID = "Bh6-go-Q02"; */
+"Bh6-go-Q02.text" = "...";
+
+/* Class = "UILabel"; text = "2020.10.08"; ObjectID = "C14-QU-h9d"; */
+"C14-QU-h9d.text" = "2020.10.08";
+
+/* Class = "UIButton"; normalTitle = "차량 전세"; ObjectID = "D7e-mm-sKz"; */
+"D7e-mm-sKz.normalTitle" = "차량 전세";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "DEd-Rv-yvS"; */
+"DEd-Rv-yvS.text" = "0";
+
+/* Class = "UILabel"; text = "미니짐"; ObjectID = "Dp0-Eg-flt"; */
+"Dp0-Eg-flt.text" = "미니짐";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Eee-2b-xkS"; */
+"Eee-2b-xkS.text" = "Label";
+
+/* Class = "UILabel"; text = "review 445"; ObjectID = "Gan-Kd-ftX"; */
+"Gan-Kd-ftX.text" = "review 445";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "HLu-ZL-7Cy"; */
+"HLu-ZL-7Cy.text" = "Label";
+
+/* Class = "UILabel"; text = "2020.10.06"; ObjectID = "JhU-FJ-hGQ"; */
+"JhU-FJ-hGQ.text" = "2020.10.06";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "OBD-Jc-A0B"; */
+"OBD-Jc-A0B.text" = "0";
+
+/* Class = "UILabel"; text = "review 445"; ObjectID = "P4K-el-SMz"; */
+"P4K-el-SMz.text" = "review 445";
+
+/* Class = "UILabel"; text = "5.0"; ObjectID = "Q5u-Ni-WT7"; */
+"Q5u-Ni-WT7.text" = "5.0";
+
+/* Class = "UILabel"; text = "아이디 찾기/비밀번호 찾기"; ObjectID = "QCg-Io-sqS"; */
+"QCg-Io-sqS.text" = "아이디 찾기/비밀번호 찾기";
+
+/* Class = "UIButton"; normalTitle = "확인"; ObjectID = "URN-ab-15r"; */
+"URN-ab-15r.normalTitle" = "확인";
+
+/* Class = "UILabel"; text = "날짜"; ObjectID = "UWR-BM-ZeX"; */
+"UWR-BM-ZeX.text" = "날짜";
+
+/* Class = "UIButton"; normalTitle = "로그인"; ObjectID = "Xm5-Wd-7w1"; */
+"Xm5-Wd-7w1.normalTitle" = "로그인";
+
+/* Class = "UILabel"; text = "보관"; ObjectID = "Y1a-Mq-DjC"; */
+"Y1a-Mq-DjC.text" = "보관";
+
+/* Class = "UILabel"; text = "맡기는 짐"; ObjectID = "axM-P5-l5r"; */
+"axM-P5-l5r.text" = "맡기는 짐";
+
+/* Class = "UILabel"; text = "운송 수단"; ObjectID = "b0W-qy-vgP"; */
+"b0W-qy-vgP.text" = "운송 수단";
+
+/* Class = "UILabel"; text = "차량"; ObjectID = "bOO-2f-aIA"; */
+"bOO-2f-aIA.text" = "차량";
+
+/* Class = "UILabel"; text = "12시 00분"; ObjectID = "bvO-0o-p5L"; */
+"bvO-0o-p5L.text" = "12시 00분";
+
+/* Class = "UILabel"; text = "..."; ObjectID = "d1w-Cb-okg"; */
+"d1w-Cb-okg.text" = "...";
+
+/* Class = "UIButton"; normalTitle = "모두 선택"; ObjectID = "dPi-Vb-uDd"; */
+"dPi-Vb-uDd.normalTitle" = "모두 선택";
+
+/* Class = "UILabel"; text = "..."; ObjectID = "dtD-jn-gsZ"; */
+"dtD-jn-gsZ.text" = "...";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "eJ2-ls-aIi"; */
+"eJ2-ls-aIi.text" = "0";
+
+/* Class = "UITextView"; text = "..."; ObjectID = "gcz-3z-Lcf"; */
+"gcz-3z-Lcf.text" = "...";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gh8-gc-CgA"; */
+"gh8-gc-CgA.text" = "Label";
+
+/* Class = "UILabel"; text = "로그인"; ObjectID = "gsO-kw-8jq"; */
+"gsO-kw-8jq.text" = "로그인";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "iRw-JK-w6q"; */
+"iRw-JK-w6q.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "검색"; ObjectID = "iz4-90-NEf"; */
+"iz4-90-NEf.normalTitle" = "검색";
+
+/* Class = "UIButton"; normalTitle = "선택한 위치로 결정"; ObjectID = "jAt-4E-0aT"; */
+"jAt-4E-0aT.normalTitle" = "선택한 위치로 결정";
+
+/* Class = "UIButton"; normalTitle = "확인"; ObjectID = "jXX-Y9-RcS"; */
+"jXX-Y9-RcS.normalTitle" = "확인";
+
+/* Class = "UILabel"; text = "이메일 주소"; ObjectID = "kQp-md-QsM"; */
+"kQp-md-QsM.text" = "이메일 주소";
+
+/* Class = "UILabel"; text = "보통짐"; ObjectID = "rpy-1w-Axs"; */
+"rpy-1w-Axs.text" = "보통짐";
+
+/* Class = "UILabel"; text = "작은짐"; ObjectID = "s1G-2i-Ifa"; */
+"s1G-2i-Ifa.text" = "작은짐";
+
+/* Class = "UILabel"; text = "바이크"; ObjectID = "sD4-V7-cZA"; */
+"sD4-V7-cZA.text" = "바이크";
+
+/* Class = "UILabel"; text = "맡길 곳"; ObjectID = "ttV-bO-FWp"; */
+"ttV-bO-FWp.text" = "맡길 곳";
+
+/* Class = "UILabel"; text = "5.0"; ObjectID = "uyB-vt-N5E"; */
+"uyB-vt-N5E.text" = "5.0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "wCs-HL-V3t"; */
+"wCs-HL-V3t.text" = "0";
+
+/* Class = "UILabel"; text = "캐리어 운송 사업자"; ObjectID = "xpZ-pu-21Z"; */
+"xpZ-pu-21Z.text" = "캐리어 운송 사업자";
+
+/* Class = "UILabel"; text = "운송"; ObjectID = "yjc-ov-doE"; */
+"yjc-ov-doE.text" = "운송";

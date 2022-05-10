@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppGuideVc" customModule="Carrifree" customModuleProvider="target">
+            <connections>
+                <outlet property="board" destination="JlP-cJ-yem" id="V0C-3r-Inq"/>
+                <outlet property="page" destination="b7S-eb-QFW" id="yR9-2a-43p"/>
+                <outlet property="scrollview" destination="PFL-he-jSG" id="7u9-5n-6J7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RSh-eG-2k3" userLabel="Bg">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.78000000000000003" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JlP-cJ-yem" userLabel="Board">
+                    <rect key="frame" x="0.0" y="80" width="414" height="782"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFL-he-jSG">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="748"/>
+                            <viewLayoutGuide key="contentLayoutGuide" id="g2y-DI-2Ds"/>
+                            <viewLayoutGuide key="frameLayoutGuide" id="6zv-jF-Yc9"/>
+                        </scrollView>
+                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="b7S-eb-QFW">
+                            <rect key="frame" x="0.0" y="754" width="414" height="28"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="28" id="jA9-i3-b3z"/>
+                            </constraints>
+                        </pageControl>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="b7S-eb-QFW" firstAttribute="top" secondItem="PFL-he-jSG" secondAttribute="bottom" constant="22" id="JUd-MD-PNc"/>
+                        <constraint firstItem="PFL-he-jSG" firstAttribute="top" secondItem="JlP-cJ-yem" secondAttribute="top" id="Mea-1E-mrA"/>
+                        <constraint firstAttribute="bottom" secondItem="b7S-eb-QFW" secondAttribute="bottom" id="Mkj-2a-lsi"/>
+                        <constraint firstAttribute="trailing" secondItem="b7S-eb-QFW" secondAttribute="trailing" id="kY8-vH-U2U"/>
+                        <constraint firstItem="PFL-he-jSG" firstAttribute="leading" secondItem="JlP-cJ-yem" secondAttribute="leading" id="rUx-qM-JuO"/>
+                        <constraint firstItem="b7S-eb-QFW" firstAttribute="leading" secondItem="JlP-cJ-yem" secondAttribute="leading" id="rgX-3i-vl2"/>
+                        <constraint firstAttribute="trailing" secondItem="PFL-he-jSG" secondAttribute="trailing" id="xfz-J6-7tX"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Krg-CA-fb3">
+                    <rect key="frame" x="364" y="44" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="Klp-Ly-QcK"/>
+                        <constraint firstAttribute="height" constant="40" id="zvv-AI-aUQ"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="xmark" catalog="system">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="24"/>
+                    </state>
+                    <connections>
+                        <action selector="onExit:" destination="-1" eventType="touchUpInside" id="cYu-pr-IlZ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="RSh-eG-2k3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="4vB-VR-gLn"/>
+                <constraint firstItem="RSh-eG-2k3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="CZe-tF-NFP"/>
+                <constraint firstItem="JlP-cJ-yem" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Hl3-sW-ZKJ"/>
+                <constraint firstItem="Krg-CA-fb3" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="I5Q-9r-7jZ"/>
+                <constraint firstItem="RSh-eG-2k3" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="QIY-kv-Unx"/>
+                <constraint firstItem="JlP-cJ-yem" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="ZNc-iM-ALa"/>
+                <constraint firstItem="JlP-cJ-yem" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="kOE-Ss-vaT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Krg-CA-fb3" secondAttribute="trailing" constant="10" id="srC-Gm-Mlx"/>
+                <constraint firstAttribute="bottom" secondItem="RSh-eG-2k3" secondAttribute="bottom" id="tfT-CN-g0l"/>
+                <constraint firstItem="JlP-cJ-yem" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="36" id="veh-T7-utA"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="130.58035714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

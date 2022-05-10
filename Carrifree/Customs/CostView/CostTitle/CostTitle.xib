@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CostTitle" customModule="CarrifreeStorage" customModuleProvider="target">
+            <connections>
+                <outlet property="Title" destination="Oz7-qw-yvS" id="lhE-ap-v2J"/>
+                <outlet property="subTitle" destination="ZAS-LB-OxC" id="bk3-gS-B4u"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="208" height="68"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QwC-vt-pyY">
+                    <rect key="frame" x="0.0" y="0.0" width="208" height="68"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZAS-LB-OxC">
+                            <rect key="frame" x="0.0" y="52" width="208" height="16"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="16" id="QOp-7m-xcY"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oz7-qw-yvS">
+                            <rect key="frame" x="0.0" y="0.0" width="178" height="52"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Pg-Kr-L4k">
+                            <rect key="frame" x="178" y="0.0" width="30" height="52"/>
+                            <color key="tintColor" red="0.94901960784313721" green="0.4823529411764706" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <state key="normal" image="questionmark.circle.fill" catalog="system"/>
+                            <connections>
+                                <action selector="onTip:" destination="-1" eventType="touchUpInside" id="UrR-VB-RCC"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="Oz7-qw-yvS" firstAttribute="top" secondItem="QwC-vt-pyY" secondAttribute="top" id="1g6-Cm-gNC"/>
+                        <constraint firstAttribute="trailing" secondItem="ZAS-LB-OxC" secondAttribute="trailing" id="3MV-IV-AOX"/>
+                        <constraint firstItem="ZAS-LB-OxC" firstAttribute="top" secondItem="Oz7-qw-yvS" secondAttribute="bottom" id="5Tr-t1-bom"/>
+                        <constraint firstItem="ZAS-LB-OxC" firstAttribute="leading" secondItem="QwC-vt-pyY" secondAttribute="leading" id="73T-9O-BoV"/>
+                        <constraint firstItem="ZAS-LB-OxC" firstAttribute="top" secondItem="0Pg-Kr-L4k" secondAttribute="bottom" id="9ve-CA-INC"/>
+                        <constraint firstAttribute="trailing" secondItem="Oz7-qw-yvS" secondAttribute="trailing" constant="30" id="CVy-le-gI4"/>
+                        <constraint firstItem="0Pg-Kr-L4k" firstAttribute="top" secondItem="QwC-vt-pyY" secondAttribute="top" id="Wfi-Yx-4ab"/>
+                        <constraint firstAttribute="bottom" secondItem="ZAS-LB-OxC" secondAttribute="bottom" id="gaE-ZU-tN6"/>
+                        <constraint firstItem="Oz7-qw-yvS" firstAttribute="leading" secondItem="QwC-vt-pyY" secondAttribute="leading" id="nrZ-we-OpU"/>
+                        <constraint firstAttribute="trailing" secondItem="0Pg-Kr-L4k" secondAttribute="trailing" id="vbi-8L-rSv"/>
+                        <constraint firstItem="0Pg-Kr-L4k" firstAttribute="leading" secondItem="Oz7-qw-yvS" secondAttribute="trailing" id="yel-eh-4cY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="QwC-vt-pyY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Mf2-4j-VfM"/>
+                <constraint firstItem="QwC-vt-pyY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="PeH-wz-LSp"/>
+                <constraint firstAttribute="trailing" secondItem="QwC-vt-pyY" secondAttribute="trailing" id="qQo-ol-rUS"/>
+                <constraint firstAttribute="bottom" secondItem="QwC-vt-pyY" secondAttribute="bottom" id="tNx-ZE-E0s"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-17.39130434782609" y="389.73214285714283"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="questionmark.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
